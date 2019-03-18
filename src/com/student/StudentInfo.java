@@ -1,4 +1,4 @@
-package com;
+package student;
 
  /**
  * 学籍信息

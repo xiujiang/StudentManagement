@@ -1,4 +1,4 @@
-package com;
+package student;
 
 /**
  * 基本信息
@@ -61,5 +61,13 @@ public class BaseInfo {
                 ", college='" + college + '\'' +
                 ", className='" + className + '\'' +
                 '}';
+    }
+
+    public String getInfo(){
+        return "学号："+studentId+"\n"+
+                "姓名:"+studentName+"\n"+
+                "年龄:"+age+"\n"+
+                "学院:"+college+"\n"+
+                "班级:"+className+"\n"+"\n";
     }
 }
